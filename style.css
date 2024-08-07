@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+
+/* navBar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 1000; 
+}
+
+.tesla, .tesla-y,.tesla-x,.tesla-s,.tesla-cyber,.tesla-solar-pannel,.tesla-solar-roof,.tesla-powerwall,.tesla-accessories{
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw; 
+    
+}
+.tesla-y,.tesla-x,.tesla-s,.tesla-cyber,.tesla-solar-pannel,.tesla-solar-roof,.tesla-powerwall,.tesla-accessories{
+    padding: 50px 0px;
+}
+.tesla {
+    background-image: url(./Homepage-Model-3-Desktop-US.avif);
+}
+.tesla-y {
+    background-image: url(./assets/images/Homepage-Model-Y-Desktop-US-v2.avif);
+}
+.tesla-x {
+    background-image: url(./assets/images/Homepage-Model-X-Desktop-US.avif);
+}
+.tesla-s {
+    background-image: url(./assets/images/Homepage-Model-S-Desktop-US.avif);
+}
+.tesla-cyber{
+    background-image: url(./assets/images/Homepage-Cybertruck-Desktop.avif);
+}
+.tesla-solar-pannel{
+    background-image: url(./assets/images/Homepage-SolarPanels-01-Desktop.avif);
+}
+.tesla-solar-roof{
+    background-image: url(./assets/images/Homepage-SolarRoof-Desktop-US.avif);
+}
+.tesla-powerwall{
+    background-image: url(./assets/images/Homepage-Powerwall-Desktop-US.avif);
+}
+.tesla-accessories{
+    background-image: url(./assets/images/Homepage-Accessories-Desktop-US.avif);
+}
+
+
+.nav-logo {
+    height: 30px;
+}
+
+.nav-logo > a > svg {
+    height: 30px;
+    width: 120px;
+    color: #fff;
+}
+
+.nav-icons > svg {
+    height: 25px;
+    width: 25px;
+    margin: 0 5px;
+}
+
+.navbar > a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    margin: 0 24px;
+    color: white;
+    font-weight: 400;
+}
+
+/* Header Buttons */
+.header-button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.modely-button {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+}
+
+.header-button button, .modely-button button {
+    padding: 4px 24px;
+    font-size: 14px;
+    width: 265px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+#btn {
+    background-color: #3e6ae1;
+    color: #fff;
+}
+
+.hero{
+    margin: 40px 0;
+    text-align: center;
+    font-family: "Universal Sans Text";
+}
+.hero2{
+    text-align: center;
+    font-family: "Universal Sans Text";
+    /* padding:    0px 0px;
+    margin-top: 30px; */
+}
+
+.hero :first-child, .hero2 :first-child {
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.hero :nth-child(2), .hero2 :nth-child(2) {
+    font-size: 28px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+    border-bottom: 1px solid #fff;
+    display: inline;
+}
+
+.hero :nth-child(3), .hero2 :nth-child(3) {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 36px;
+}
