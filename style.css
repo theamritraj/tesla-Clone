@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --bgOrange: #e84949;
+  }
 body {
     overflow-x: hidden;
 }
